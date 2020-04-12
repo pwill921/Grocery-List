@@ -5,7 +5,12 @@
 }
 
 body {
+<<<<<<< HEAD
   color: black;
+=======
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  color: white;
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
@@ -22,6 +27,7 @@ form {
   align-items: center;
 }
 
+<<<<<<< HEAD
 .container {
   display: flex;
   justify-content: center;
@@ -37,6 +43,8 @@ form {
   background-color: lightgrey;
 }
 
+=======
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
 form input,
 form button {
   padding: 0.5rem;
@@ -46,14 +54,22 @@ form button {
 }
 
 form button {
+<<<<<<< HEAD
   color: black;
+=======
+  color: #d88771;
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
   background: white;
   cursor: pointer;
   transistion: all 0.3 ease;
 }
 
 form button:hover {
+<<<<<<< HEAD
   background: black;
+=======
+  background: #d88771;
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
   color: white;
 }
 
@@ -83,6 +99,7 @@ form button:hover {
   flex: 1;
 }
 
+<<<<<<< HEAD
 .trash-btn {
   background: white;
   color: black;
@@ -94,6 +111,11 @@ form button:hover {
 
 .complete-btn {
   background: white;
+=======
+.trash-btn,
+.complete-btn {
+  background: #ff6f47;
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
   color: white;
   border: none;
   padding: 1rem;
@@ -102,7 +124,11 @@ form button:hover {
 }
 
 .complete-btn {
+<<<<<<< HEAD
   background: black;
+=======
+  background: rgb(73, 204, 73);
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
 }
 
 .todo-item {
@@ -139,7 +165,11 @@ select {
 }
 
 select {
+<<<<<<< HEAD
   color: black;
+=======
+  color: #ff6f47;
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
@@ -148,7 +178,11 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
+<<<<<<< HEAD
   background: whitesmoke;
+=======
+  background: #ff6f47;
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
   top: 0;
   right: 0;
   padding: 1rem;
@@ -158,5 +192,9 @@ select {
 
 .select:hover::after {
   background: white;
+<<<<<<< HEAD
   color: black;
+=======
+  color: #ff6f47;
+>>>>>>> 5bddee4b5dadf78f667288cab46bc625748b84ef
 }
